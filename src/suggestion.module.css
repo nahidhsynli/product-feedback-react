@@ -1,0 +1,130 @@
+.suggestion {
+  width: 100%;
+}
+
+.suggestionHeader {
+  border-radius: 10px;
+  background: #373f68;
+  color: #ffffff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestionHeaderLeft {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.customSelect {
+  position: relative;
+  display: inline-block;
+}
+
+.customSelectSelect {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: transparent;
+  padding: 8px 20px 8px 15px;
+  font-size: 14px;
+  border: 1px solid #373f68;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #f2f4fe;
+}
+
+.customSelect::after {
+  content: "\25BC";
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+}
+
+.customSelectOption {
+  background-color: #fff;
+  color: #333;
+}
+
+.customSelectOption:hover {
+  background-color: #f2f2f2;
+}
+
+.sortbyLabel {
+  color: #f2f4fe;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.addFeedback {
+  border-radius: 10px;
+  background: #ad1fea;
+  padding: 10px 30px;
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Feedback box */
+
+.feedbackBox {
+  padding: 1.5rem;
+  margin: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.upvoteMiddle {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.upvoteSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.feedbackMiddle > div {
+  background-color: #f2f4ff;
+  display: inline;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.feedbackMiddle > div > a {
+  color: #4661e6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.feedbackMiddle > h5 {
+  color: #3a4374;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.25px;
+}
+
+.feedbackMiddle > p {
+  color: #647196;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.commentSection {
+  display: flex;
+  gap: 0.5 rem;
+}
